@@ -26,7 +26,7 @@ Crawler using terraform and kafka for logs
 
 # Logging
 
-##### The famous ELK stack but instead of logstash we are going to use Kafka thinking of high throughputto take this decision.
+##### The famous ELK stack but instead of logstash we are going to use Kafka thinking of high throughput to take this decision.
 
 # CI/CD
 
