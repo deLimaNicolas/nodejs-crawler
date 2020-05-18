@@ -17,7 +17,7 @@ Crawler using terraform and kafka for logs
 ![Typescript](https://rafaell-lycan.com/assets/images/posts/intro-typescript.png)
 ##### We are going to make tests, but also use typescript, this way our code will have a strong foundation of types checking! You can see it as double testing.
 
-# Jest with SUpertest
+# Jest with Supertest
 ![Jest](https://elo7.dev/images/cover/jest-testar-seu-codigo-javascript-nunca-foi-tao-facil.png)
 ##### Strong foundations is tests, and I mean real request tests!
 
