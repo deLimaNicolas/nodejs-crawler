@@ -1,0 +1,34 @@
+{
+    "defaultSeverity": "error",
+    "extends": [
+        "tslint:recommended"
+    ],
+    "jsRules": {},
+    "rules": {
+        "no-console": false,
+        "only-arrow-functions": true,
+        "await-promise": true,
+        "no-async-without-await": true,
+        "no-duplicate-variable": true,
+        "no-return-await": true,
+        "no-unused-expression": true,
+        "no-use-before-declare": true,
+        "no-unsuded-variable": true,
+        "no-var-keyword": true,
+        "triple-equals": true,
+        "deprecation": true,
+        "no-default-export": true,
+        "no-require-imports": true,
+        "array-type": [true, "array-simple"],
+        "one-variable-per-declaration": true,
+        "ordered-imports": true,
+        "arrow-parens": true,
+        "eofline": true,
+        "indent": true,
+        "max-line-length": [true, 120],
+        "no=trailing-whitespace": true,
+        "semicolon": true,
+        "quotemark": "single"
+      },
+    "rulesDirectory": []
+}
