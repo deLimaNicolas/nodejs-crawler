@@ -1,7 +1,7 @@
 # STATUS : IN PROGRESS
 
 # nodejs-crawler
-Crawler using terraform and kafka for logs
+Crawler using terraform and Logstash for logs
 
 # Project
 #####  We are going to write a simple crawler that will retrieve data from Mercado Livre(e-commerce) but of course, we`re going to me things more interesting so this repository can give some real use for the community. So check it out some of the features we are going to implement!
@@ -26,7 +26,7 @@ Crawler using terraform and kafka for logs
 
 # Logging
 
-##### The famous ELK stack but instead of logstash we are going to use Kafka thinking of high throughput to take this decision.
+##### The famous ELK stack.
 
 # CI/CD
 
