@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "# nodejs-crawler Crawler using terraform and kafka for logs",
   "main": "index.js",
+  "jest": {
+    "preset": "ts-jest",
+    "testEnvironment": "node"
+  },
   "scripts": {
     "dev": "ts-node src/server.ts",
     "start": "tsc -p . && ts-node dist/server.js",
@@ -21,8 +25,13 @@
   "homepage": "https://github.com/deLimaNicolas/nodejs-crawler#readme",
   "devDependencies": {
     "@types/express": "^4.17.6",
+    "@types/jest": "^25.2.3",
     "@types/node": "^14.0.1",
+    "@types/supertest": "^2.0.9",
+    "jest": "^26.0.1",
     "nodemon": "^2.0.4",
+    "supertest": "^4.0.2",
+    "ts-jest": "^26.0.0",
     "ts-node": "^8.10.1",
     "tslint": "^6.1.2",
     "typescript": "^3.9.2"
