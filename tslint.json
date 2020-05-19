@@ -10,7 +10,6 @@
     "max-line-length": [true, 120],
     "no-async-without-await": true,
     "no-console": false,
-    "no-default-export": true,
     "no-duplicate-variable": true,
     "no-require-imports": true,
     "no-return-await": true,
