@@ -12,7 +12,6 @@
         "no-duplicate-variable": true,
         "no-return-await": true,
         "no-unused-expression": true,
-        "no-use-before-declare": true,
         "no-unsuded-variable": true,
         "no-var-keyword": true,
         "triple-equals": true,
