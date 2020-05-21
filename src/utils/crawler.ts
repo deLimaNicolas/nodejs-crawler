@@ -1,14 +1,15 @@
 import cheerio from 'cheerio';
 import request from 'request-promise';
+import IProduct from '../interfaces/IProduct';
 
 const getMercadoLivreData = async (search: string, limit: number = 10): Promise<any[]> => {
     try {
         const body: string = await request(`https://lista.mercadolivre.com.br/${search}`);
         const $ = cheerio.load(body);
-        const firstPageData = [];
+        const firstPageData: IProduct[] = [];
 
         $('.item__info-title').each(function (i) {
-            if (!firstPageData[i] && i < limit) firstPageData[i] = {};
+            if (!firstPageData[i] && i < limit) firstPageData[i] = { name: '', store: '', price: '', link: '' };
             i < limit ? firstPageData[i].name = $(this).text() : null;
         });
         $('.price__fraction').each(function (i) {
