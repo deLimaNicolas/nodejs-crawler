@@ -12,9 +12,10 @@
   },
   "scripts": {
     "dev": "ts-node src/server.ts",
-    "start": "tsc -p . && ts-node dist/server.js",
+    "start": "node dist/server.js",
     "build": "tsc -p .",
-    "lint": "tslint src/**/*.ts{,x}"
+    "lint": "tslint src/**/*.ts{,x}",
+    "postinstall": "npm run build"
   },
   "repository": {
     "type": "git",
