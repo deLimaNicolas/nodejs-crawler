@@ -7,7 +7,7 @@
     "node": "13.10.1"
   },
   "jest": {
-    "preset": "jest",
+    "preset": "ts-jest",
     "testEnvironment": "node"
   },
   "scripts": {
