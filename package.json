@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "description": "# nodejs-crawler Crawler using terraform and kafka for logs",
   "main": "index.js",
+  "engines": {
+    "node": "13.10.1"
+  },
   "jest": {
     "preset": "ts-jest",
     "testEnvironment": "node"
