@@ -1,10 +1,7 @@
 import winston from 'winston';
 import { LogstashTransport } from 'winston-logstash-ts';
+import config from './config';
 
-winston.add(LogstashTransport, {
-    port: 54000,
-    node_name: 'nicolas',
-    host: '54.187.143.168'
-});
+winston.add(LogstashTransport, config.logstashConfig);
 
 export default winston;
