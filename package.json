@@ -12,7 +12,7 @@
   },
   "scripts": {
     "dev": "ts-node src/server.ts",
-    "start": "npm run build && node dist/server.js",
+    "start": "node dist/server.js",
     "test": "jest",
     "build": "tsc -p .",
     "lint": "tslint src/**/*.ts{,x}",
