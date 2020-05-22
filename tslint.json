@@ -15,6 +15,7 @@
     "no-trailing-whitespace": true,
     "no-unused-variable": true,
     "no-var-keyword": true,
+    "no-unused-expression": false,
     "one-variable-per-declaration": true,
     "only-arrow-functions": true,
     "ordered-imports": true,
