@@ -1,4 +1,4 @@
-module.exports = {
+const config = {
   logstashConfig: {
     env: process.env.ENV || 'dev',
     dev: {
@@ -8,4 +8,6 @@ module.exports = {
     },
     prd: {},
   },
-}
+};
+
+export default config;
